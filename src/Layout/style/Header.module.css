@@ -1,0 +1,18 @@
+.Wrap {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  width: 100%;
+}
+.Inner {
+  display: flex;
+  justify-content: flex-end;
+}
+.FunctionMenu {
+  display: flex;
+}
+.FunctionMenu > li {
+  margin-right: 15px;
+}
+.FunctionMenu > li:nth-last-child(1) {
+  margin-right: 5px;
+}

@@ -1,0 +1,14 @@
+.Wrap {
+  display: flex;
+  justify-content: center;
+}
+.Inner {
+  transition: 0.2s;
+  max-width: 1280px;
+}
+.Subject {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}

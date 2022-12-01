@@ -1,0 +1,33 @@
+.Wrap {
+  background: rgba(92, 102, 255, 0.508);
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  width: 100%;
+}
+.Inner {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.LogoImg {
+  background: rgb(188, 136, 136);
+  max-width: 150px;
+  max-height: 100px;
+  min-width: 80%;
+  min-height: 60px;
+}
+.Inner > a {
+  padding: 15px 2px 15px 10px;
+  width: 70%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+  border-radius: 10px 0px 0px 10px;
+}
+.Inner > a:nth-last-child {
+  margin-bottom: 30px;
+}
+.Inner > a:hover {
+  background-color: rgba(148, 148, 148, 0.4);
+}

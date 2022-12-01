@@ -1,0 +1,9 @@
+.Wrap {
+  display: flex;
+  justify-content: center;
+}
+.Inner {
+  display: grid;
+  grid-template-columns: 2fr 14fr;
+  width: 1280px;
+}
